@@ -1,0 +1,258 @@
+/*
+    A dark color scheme css
+*/
+
+body {
+    background-color: #000;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.site-description {
+    color: #e5e5e5;
+}
+
+a {
+    color: #f45050;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #e5e5e5;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #f45050;
+    color: #e5e5e5;
+}
+
+.header-top-bar {
+    background-color: #000;
+    color: #fff;
+}
+
+.header-top-bar .lucida-nav-menu a,
+.header-top-bar .header-right-social-icons .genericon {
+    color: #fff;
+}
+
+#masthead {
+    background-color: #000;
+}
+
+.site-title a {
+    color: #fff;
+}
+
+.lucida-nav-menu a {
+    background-color: #000;
+    color: #fff;
+}
+
+.lucida-nav-menu .sub-menu a,
+.lucida-nav-menu .menu .children a {
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+#primary-menu {
+    background-color: #000;
+}
+
+.header-top-bar,
+#primary-menu {
+    border-color: #444;
+}
+
+.lucida-nav-menu ul,
+.lucida-nav-menu li,
+.lucida-nav-menu ul li,
+.dropdown-toggle:after {
+    border-color: #d1d1d1;
+}
+
+.lucida-nav-menu ul:before {
+    border-color: #d1d1d1 transparent;
+}
+
+#secondary-menu,
+#secondary-menu .lucida-nav-menu a {
+    background-color: #1a1a1a;
+}
+
+#secondary-menu .lucida-nav-menu .sub-menu a {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+}
+
+#secondary-menu .lucida-nav-menu ul:after {
+    border-color: #1a1a1a transparent
+}
+
+#secondary-menu .lucida-nav-menu .sub-menu a:hover,
+#secondary-menu .header-top-bar .lucida-nav-menu .sub-menu a:focus {
+    background-color: #1a1a1a;
+    color: #f45050;
+}
+
+#secondary-menu .lucida-nav-menu ul,
+#secondary-menu .lucida-nav-menu li,
+#secondary-menu .lucida-nav-menu ul li,
+#secondary-menu .dropdown-toggle:after {
+    border-color: #444;
+}
+
+#secondary-menu .lucida-nav-menu ul:before {
+    border-color: #444 transparent;
+}
+
+#search-toggle:hover,
+#search-toggle:focus {
+    background-color: transparent;
+    color: #f45050;
+}
+
+#search-container {
+    background-color: #000;
+}
+
+.nav-primary .search-form {
+    border-color: #444;
+}
+
+.site-main {
+    background-color: #1a1a1a;
+}
+
+.site-content .wrapper,
+#news-ticker,
+.news-ticker-above-content #news-ticker .wrapper,
+#featured-content {
+    background-color: #262626;
+}
+
+.page-title,
+.entry-title,
+.entry-title a {
+    color: #e5e5e5;
+}
+
+.entry-meta,
+.entry-meta a {
+    color: #c1c1c1;
+}
+
+.news-ticker-above-content #news-ticker {
+    background-color: transparent;
+}
+
+.site-content .wrapper,
+#news-ticker,
+.news-ticker-above-content #news-ticker .wrapper,
+#breadcrumb-list span,
+.archive-post-wrap,
+.products,
+.sidebar.sidebar-before-posts-pages .widget .widget-wrap,
+.sidebar.sidebar-after-posts-pages .widget .widget-wrap,
+.page-header .page-title,
+.comment-body {
+    border-color: #444;
+}
+
+#breadcrumb-list {
+    background-color: #000;
+}
+
+#breadcrumb-list .breadcrumb-current,
+#breadcrumb-list a:hover,
+#breadcrumb-list a:hover span {
+    background-color: #262626;
+    color: #e5e5e5;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #111;
+    color: #e5e5e5;
+}
+
+#site-generator,
+.nav-footer {
+    background-color: #000;
+    color: #e5e5e5;
+}
+
+#site-generator a,
+#site-generator .lucida-nav-menu li a {
+    color: #c1c1c1;
+}
+
+#site-generator .lucida-nav-menu li a {
+    background-color: transparent;
+}
+
+/* Pagination/Infiniate Scroll */
+.posts-navigation .nav-links a,
+.pagination .nav-links a,
+.pagination .nav-links .current,
+.pagination .nav-links .dots,
+#infinite-handle span button,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    color: #1a1a1a;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span,
+.page-links a,
+.page-links span {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    color: #1a1a1a;
+}
+
+.posts-navigation .nav-links a:hover,
+.posts-navigation .nav-links a:focus,
+.pagination .nav-links a:hover,
+.pagination .nav-links a:focus,
+.pagination .nav-links .current,
+.wp-pagenavi span.current,
+.wp-pagenavi a:hover,
+.wp-pagenavi a:focus,
+#infinite-handle span button:hover,
+#infinite-handle span button:focus,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.page-links span,
+.page-links a:hover,
+.page-links a:focus,
+.page-links a:hover span,
+.page-links a:focus span {
+    background-color: #f45050;
+    border-color: #f45050;
+    color: #fff;
+}
+
+.wp-pagenavi .pages,
+.page-links span.pages {
+    color: #e5e5e5;
+}

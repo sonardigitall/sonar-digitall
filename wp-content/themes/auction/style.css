@@ -1,0 +1,167 @@
+﻿/*
+/*
+Theme Name: Auction
+Template: advance
+Theme URI:
+Author: Imon Themes
+Author URI: http://www.imonthemes.com
+License: GNU General Public License, v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: auction
+Domain Path: /languages/
+
+Description: Auction super flat design and responsive landing page and multipurpose theme. you will be amazed by the real time customizer,lots of smart options that will help you build your website with ease.Auction   is a child theme of advance.
+
+Version: 1.0.1
+
+Tags:  featured-images, threaded-comments,blog,photography,education
+
+Auction   WordPress Theme, Copyright 2016 imonthemes.com
+Auction   is distributed under the terms of the GNU GPL
+
+/*---------------------------------------
+NEWS
+-----------------------------------------*/
+#content {background-color:#FFF;}
+.blog-one {
+    background-color: #fff;
+    display: block;
+    padding: 0;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px #ddd;
+       -moz-box-shadow: 0 1px 1px #ddd;
+            box-shadow: 0 1px 1px #ddd;
+}
+.blog-one:hover {
+    -webkit-box-shadow: 0 0 40px #ddd;
+       -moz-box-shadow: 0 0 40px #ddd;
+            box-shadow: 0 0 40px #ddd;
+}
+.blog-one .blog-one-header img {
+    -webkit-border-top-left-radius: 2px;
+       -moz-border-top-left-radius: 2px;
+            border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+       -moz-border-top-right-radius: 2px;
+            border-top-right-radius: 2px;
+}
+.blog-one-attrib {
+    background-color: #f1f5f9;
+    height: 50px;
+    padding: 15px 25px;
+    border-bottom: 1px solid #eee;
+}
+.blog-one .blog-one-attrib .blog-author-photo {
+    width: 60px;
+    height: 60px;
+    float: left;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 1px 2px #ddd;
+       -moz-box-shadow: 0 1px 2px #ddd;
+            box-shadow: 0 1px 2px #ddd;
+}
+.blog-one .blog-one-attrib .blog-author-name {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+.blog-one .blog-one-attrib .blog-date {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: 600;
+    float: right;
+    display: block;
+    margin-top: 5px;
+}
+.blog-one .blog-one-attrib .blog-category {
+    float: right;
+    text-align: center;
+    padding: 1px 5px 2px 5px;
+    margin-top: 0;
+    margin-left: 10px;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+}
+.blog-one .blog-one-attrib .blog-category  a {
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.blog-one .blog-one-attrib .blog-category a:hover > i {
+    color: #fff;
+}
+@media(max-width:1200px) {
+    .blog-one .blog-one-attrib .blog-date {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .blog-one-attrib {
+        padding: 15px 10px;
+    }
+}
+.blog-one .blog-one-body {
+    padding: 30px 25px 0 25px;
+    background: transparent;
+    margin-top: -25px;
+    float: left;
+    width: 100%;
+    padding-bottom: 0;
+    -webkit-border-bottom-left-radius: 2px;
+       -moz-border-bottom-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+       -moz-border-bottom-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+}
+.blog-one .blog-one-body p {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+	font-size: 13px;
+    line-height: 25px;
+    color: #747474;
+}
+.blog-one .blog-one-body .blog-title {
+    font-size: 18px;
+    color: #aaa;
+	font-weight:bold;
+	border-bottom: 1px dashed #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+	padding-top: 15px;
+}
+.blog-one .blog-one-body .blog-title a {
+    color: #555;
+}
+.blog-one .blog-one-footer {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bbb;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.blog-one .blog-one-footer i {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.blog-one .blog-one-footer a {
+
+}
+
+.post_warp {margin-bottom:5%}

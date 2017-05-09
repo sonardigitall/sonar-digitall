@@ -1,0 +1,67 @@
+== Change Log ==
+
+= 1.3.8 =
+* Bug fixed: Promotion Headline - $headline displayed instead of $sub_headline ( Reported By: sachyya )
+
+= 1.3.7 =
+* Compressed: Images 
+* Removed: Unnecessary images
+
+= 1.3.6 (Merged 1.3.4 and 1.3.5) =
+* Bug Fixed: Output Sanitization Issues
+* Bug Fixed: Translation Issues
+* Bug Fixed: excerpt_length and excerpt_more hooks now do not affect admin side
+* Bug Fixed: Removed use of create_function for inititalizing widgets
+* Bug Fixed: Prefixed localized objects
+* Bug Fixed: Replaced wp_reset_query() with wp_reset_postdata() when used with WP_Query Class
+* Removed: Unnecessary sidebar check on 404.php and sidebar-footer.php
+
+= 1.3.3 =
+* Removed: Image widget
+* Removed: Text addition for social icon widget
+* Enhanced: Style for blockquote, q and alignment
+
+= 1.3.2 =
+* Bug Fixed: Upgrade to Pro button link in customizer
+
+= 1.3.1 =
+* Bug Fixed: Widget layout issue in footer widget area
+
+= 1.3 =
+* Updated translation strings
+* Internationalized footer date
+
+= 1.2 =
+* Added: Option to Display all Categories in Customizer
+* Added: Display content option in customizer featured slider
+* Bug Fixed: Drop down toggle arrow issue in Primary and Secondary menus
+* Bug Fixed: Entry meta color css issue
+* Bug Fixed: Slider Meta data
+* Bug Fixed: jquery offset error on hide date option
+* Enhanced: HTML structure to remove multiple h1
+
+= 1.1 =
+* Updated: Custom CSS to Additional CSS( Core Support ) for WP version 4.7
+* Code Optimization
+
+= 1.0.4 =
+* Bug Fixed: Layout issue in responsive design
+* Bug Fixed: Secondary menu issue in responsive design
+* Bug Fixed: Undefined variable error in core.php
+
+= 1.0.3 =
+* Bug Fixed: Compressed production version scripts
+* Bug Fixed: Whitespace issues error hampering xml files display
+* Updated: HTML script loading from lucida_head() function and added it as wp_enqueue_script() in lucida_scripts() function
+* Updated: Used the_archive_title() and the_archive_description() in archive.php
+* Updated: Styles/Scripts handle standardized
+
+= 1.0.2 =
+* Revert: "Used wp_add_inline_style for custom css" from v1.0.1 as this is method does not override light.css in light color scheme
+* Removed: update_option for thumbnail image size and added new image sizes as lucida-small
+
+= 1.0.1 =
+* Bug fixed: custom style not enqueued. (Reported by jailma-santos)
+
+= 1.0 =
+* Initial Release
